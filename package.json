@@ -1,0 +1,22 @@
+{
+  "name": "resetpassword",
+  "homepage": "https://supriya224.github.io/ResetPassword",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
+      "start": "react-scripts start",
+      "build": "react-scripts build"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/supriya224/ResetPassword.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "gh-pages": "^4.0.0"
+    }
+  }
